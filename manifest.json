@@ -1,0 +1,19 @@
+{
+    "mainfest":1,
+
+    "name": "SpotifyOpener",
+    "description": "Open Spotigy Application insted of the web player"
+
+    ,
+
+    "version": "0.1",
+
+    "permissions": [
+    "https://play.spotify.com",
+    "http://play.spotify.com"
+    ],
+    "browser_action": { "icon.png",
+    "default_popup": "popup.html"
+    }
+}
+
