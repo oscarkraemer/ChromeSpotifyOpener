@@ -3,7 +3,6 @@
     
     "name": "SpotifyOpener",
     "description": "Open Spotigy Application insted of the web player"
-
     ,
 
     "version": "0.1",
@@ -11,9 +10,6 @@
     "permissions": [
     "https://play.spotify.com/",
     "http://play.spotify.com/",
-    "tabs",
-    "debugger",
-    "background",
     "activeTab"
     ],
     "browser_action": { 
@@ -24,5 +20,6 @@
     "background": {
     "page": "background.html"
     }
+
 }
 
